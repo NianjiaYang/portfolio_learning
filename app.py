@@ -80,7 +80,7 @@ with st.sidebar:
     rf_rate = st.number_input(
         "Annual risk-free rate (%)",
         min_value=0.0,
-        max_value=10.0,
+        max_value=11,
         value=RISK_FREE_RATE * 100,
         step=0.1,
         help="Used for Sharpe ratio calculation (excess return / volatility)",
